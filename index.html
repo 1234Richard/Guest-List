@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1 class="page-header">Guest List</h1>
+        <div id="Submit_name">
+            <span>
+            <input type="text" placeholder="Type name here" id="name_insert">
+            </span>
+            <span>
+                <button class="btn btn-success" onclick="Submit()">Submit</button>
+            </span>
+        </div>
+        <hr>
+        <div id="list_with_commas">
+
+        </div>
+        <hr>
+        <div>
+            <h2>Guest List</h2>
+            <button id="display_list_in_vertically" onclick="vertical()">Show</button>
+            <div id="list_without_sort">
+
+            </div>
+        </div>
+        <hr>
+        <div>
+            <button id="sort" onclick="Sort()">Sort List</button>
+            <div id="Show_list_sort">
+
+            </div>
+        </div>
+        <hr>
+        <div>
+            <span>
+                <input type="text" placeholder="Write name here" id="Show_name_no:">
+            </span>
+            <span>
+                <button id="search" onclick="Search()">Search</button>
+            </span>
+            <div id="display_duplicate_names">
+
+            </div>
+        </div>
+    </body>
+</html>
